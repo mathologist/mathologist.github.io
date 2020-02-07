@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Mathologist</title>
+    <link>https://www.mathologist.net/tags/</link>
+      <atom:link href="https://www.mathologist.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 25 Nov 2019 10:03:46 -0800</lastBuildDate>
+    <image>
+      <url>https://www.mathologist.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://www.mathologist.net/tags/</link>
+    </image>
+    
+    <item>
+      <title>current</title>
+      <link>https://www.mathologist.net/tags/current/</link>
+      <pubDate>Mon, 25 Nov 2019 10:03:46 -0800</pubDate>
+      <guid>https://www.mathologist.net/tags/current/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>past</title>
+      <link>https://www.mathologist.net/tags/past/</link>
+      <pubDate>Mon, 25 Nov 2019 10:03:46 -0800</pubDate>
+      <guid>https://www.mathologist.net/tags/past/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>https://www.mathologist.net/tags/teaching/</link>
+      <pubDate>Mon, 25 Nov 2019 10:03:46 -0800</pubDate>
+      <guid>https://www.mathologist.net/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

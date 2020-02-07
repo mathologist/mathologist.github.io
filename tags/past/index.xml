@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>past | Mathologist</title>
+    <link>https://www.mathologist.net/tags/past/</link>
+      <atom:link href="https://www.mathologist.net/tags/past/index.xml" rel="self" type="application/rss+xml" />
+    <description>past</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 25 Nov 2019 10:03:46 -0800</lastBuildDate>
+    <image>
+      <url>https://www.mathologist.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>past</title>
+      <link>https://www.mathologist.net/tags/past/</link>
+    </image>
+    
+    <item>
+      <title>Statway</title>
+      <link>https://www.mathologist.net/teaching/statway/</link>
+      <pubDate>Mon, 25 Nov 2019 10:03:46 -0800</pubDate>
+      <guid>https://www.mathologist.net/teaching/statway/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve created an excel workbook to help with calculations. I will be updating it as needed throughout the semester. It&amp;rsquo;s available in 3 formats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.mathologist.net/files/statway.xlsx&#34;&gt;Click here to download xlsx (for Microsoft Excel).&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;../static/files/statway.ods&#34;&gt;Click here to download ods (LibreOffice or OpenOffice).&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/open?id=1cQAY7yrZAuipdvJae8he64GtOHEwLB8jl4Ct6r2VmV0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click here to access the document on Google Drive.&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;ve also created a program for the TI Calculator that will calculate the expected numbers for the \(\chi^2\) test for independence / homogeneity. You can download it 
+&lt;a href=&#34;../static/files/CHISQ.8xp&#34;&gt;here.&lt;/a&gt;
+ Or you can code it yourself. The code is as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;: dim([A])→L₆
+: L₆(1)→R
+: L₆(2)→C
+: Matr▶list(cumSum([A])ᵀ,R,L₆
+: sum(L₆)→T
+: {R,C}→dim([B]
+: For(I,1,R)
+: For(J,1,C)
+: Matr▶list([A]ᵀ,I,L₆
+: Matr▶list([A],J,L₅
+: sum(L₅)*sum(L₆)/T → [B](I,J)
+: End
+: End
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I&amp;rsquo;m also redoing some of the Statway online tools to make them (IMHO) better. So far I have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://stats.mathologist.net/mms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;M&amp;amp;M Proportion Simulator&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://stats.mathologist.net/normal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Normal Distribution Calculator&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://stats.mathologist.net/t/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Student T Distribution Calculator&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
